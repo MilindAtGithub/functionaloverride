@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: orderprocessor
+server:
+  port: 9092
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+app:
+  extension:
+    orderprocess:
+
